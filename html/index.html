@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Japanese Flash Cards</title>
+        <link rel="stylesheet" type="text/css" href="css\styles.css">
+    </head>
+    <body>
+        <div id="title">
+            <h1>Practice Japanese Characters</h1>
+        </div>
+        <div id="options">
+            <h3>Choose your session settings - </h3>
+            <form action="./session">
+                <label for="timeLimit">Time Limit</label>
+                <select id="timeLimit" name="timeLimit">
+                    <option value="1">1 minute</option>
+                    <option value="5">5 minute</option>
+                    <option value="10">10 minutes</option>
+                </select>
+                <div class="container">
+                    <label for="hiragana">1. Hiragana</label>
+                    <input type="checkbox" id="hiragana" name="hiragana" value="1"><br>
+
+                    <label for="katakana">2. Katakana</label>
+                    <input type="checkbox" id="katakana" name="katakana" value="1"><br>
+
+                    <label for="hiragana">3. Kanji&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+                    <input type="checkbox" id="kanji" name="kanji" value="1"><br>
+
+                    <input type="submit" class="button-17" value="Start">
+                    
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

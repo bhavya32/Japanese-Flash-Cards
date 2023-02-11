@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Practice Session</title>
+        <link rel="stylesheet" type="text/css" href="css\styles.css">
+        <script src="js\session.js"></script>
+    </head>
+
+    <body>
+        <div id="title-bar" class="navbar">
+            <div id="timer">
+                01:00
+            </div>
+            <div id="titles">
+                <h2>Practice Japanese Characters</h2>
+            </div>
+            <div id="score">
+                0/0
+            </div>
+        </div>
+
+        <div id="body-container">
+            <div id="question">
+                前
+            </div>
+            <div id="answer">
+                <div id="optionsL">
+                    <input type="text" id="option1" class="optionT" placeholder="Enter Romaji Here"  onkeypress="handlekey(event)">
+                </div>
+                <div id="check">
+                    <input type="button" class="button-17" onclick="checkAnswer2(document.getElementById('option1'))" value="Check"> 
+                </div>
+            </div>
+        </div>
+
+        <div id="results" class="container-popup">
+            
+        </div>
+
+    </body>
+</html>
